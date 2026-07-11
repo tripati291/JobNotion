@@ -10,8 +10,8 @@ import applicantionRouter from "./routes/application.routes.js";
 dotenv.config({});
 
 const app = express();
-
-connectDB()
+console.log("MONGODB_URI =", process.env.MONGODB_URI);
+await connectDB()
 
 // middlewares
 app.use(express.json());
