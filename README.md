@@ -125,8 +125,14 @@ npm start
 ```
 
 ### Open in browser:
-- **Frontend → http://localhost:5137**
-- **Backend → http://localhost:5000**
+## Run Locally
+
+To run this application on your computer, first start the backend server and then the frontend development server by following the setup instructions above.
+
+- **Frontend:** http://localhost:5173
+- **Backend:** http://localhost:5000
+
+**Note:** These links work only when the application is running locally on your computer. The project is not currently deployed online.
 
 ---
 
